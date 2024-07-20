@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#task-input {
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+#add-task-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-task-btn:hover {
+    background-color: #3e8e41;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#task-list li {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: calc(25% - 20px);
+}
+
+.watch-series {
+    background-color: #ff69b4;
+}
+
+.complete-hw {
+    background-color: #33cc33;
+}
+
+.good-sleep {
+    background-color: #66CCCC;
+}
+
+.selfcare {
+    background-color: #FFC67D;
+}
+
+#task-list input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#task-list label {
+    display: inline-block;
+    width: 100%;
+}
